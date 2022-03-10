@@ -19,7 +19,7 @@
     left:0px;
     height: 60px;
     width: 60px;
-    background-color: pink;
+    background:url("../images/xige.png") no-repeat center;
 }
 .search{
     position: absolute;
@@ -44,27 +44,28 @@
     border: 1px solid #25b0d8;
     border-radius: 0 5px 0 5px;
 }
-.gf{
+/*nav function 头部导航模块 */
+.navf{
     position: absolute;
     top:50%;
     left:740px;
     margin-top: -20px;
     line-height: 40px;
 }
-.gf .login{
+.navf .login{
     float:left;
 }
-.gf .information{
+.navf .information{
     float: left;
 }
-.gf ul li{
+.navf ul li{
     float:left;
     padding: 0 10px;
 }
-.gf ul li a:hover{
+.navf ul li a:hover{
     color:#f9a708;
 }
-.gf .login ul li:nth-child(2){
+.navf .login ul li:nth-child(2){
     padding: 0 2px;
 }
 
