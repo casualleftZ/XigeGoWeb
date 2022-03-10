@@ -1,0 +1,71 @@
+/*版心*/
+.w{
+    width: 1200px;
+    margin:0 auto;
+    text-align: center;
+}
+/*快速导航样式*/
+.header{
+    background-color: #b7661a;
+}
+.nav{
+    position: relative;
+    height: 80px;
+    /* border: 1px solid transparent; */
+}
+.logo{
+    position: absolute;
+    top:10px;
+    left:0px;
+    height: 60px;
+    width: 60px;
+    background-color: pink;
+}
+.search{
+    position: absolute;
+    left:100px;
+    top:20px;
+    height: 40px;
+    width: 540px;
+}
+.search input{
+    float: left;
+    height: 40px;
+    width: 460px;
+    border: 1px solid #25b0d8;
+    border-radius: 5px  0 0 5px;
+}
+.search button{
+    float:left;
+    height: 40px;
+    width: 80px;
+    /* 暂时 */
+    background-image:url(../images/xige.png);
+    border: 1px solid #25b0d8;
+    border-radius: 0 5px 0 5px;
+}
+.gf{
+    position: absolute;
+    top:50%;
+    left:740px;
+    margin-top: -20px;
+    line-height: 40px;
+}
+.gf .login{
+    float:left;
+}
+.gf .information{
+    float: left;
+}
+.gf ul li{
+    float:left;
+    padding: 0 10px;
+}
+.gf ul li a:hover{
+    color:#f9a708;
+}
+.gf .login ul li:nth-child(2){
+    padding: 0 2px;
+}
+
+
