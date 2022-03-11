@@ -8,6 +8,8 @@
     <meta name="Keywords" content="围棋，江南七怪围棋，熙哥"/>
     <!--引入jQuery库-->
     <script src="../js/jquery.min.js"></script>
+    <!--引入自定义运动js-->
+    <script src="../js/animate.js"></script>
     <!--引入首页index.js-->
     <script src="../js/index.js"></script>
     <!-- 引入浏览器导航图标-->
@@ -52,16 +54,28 @@
 </header>
 <!-- 快捷导航模块header end-->
 
-<!--轮播图banner-->
-<section class="banner">
-    <div class="w focus">
-        <ul>
-            <li><img src="../upload/banner1.png" alt=""></li>
-            <li><img src="../upload/banner2.png" alt=""></li>
-            <li><img src="../upload/banner3.png" alt=""></li>
-            <li><img src="../upload/banner4.png" alt=""></li>
-        </ul>
+<!--轮播图banner start-->
+<div class="w">
+    <div class="banner">
+        <!-- 轮播图模块focus 焦点-->
+        <div class="focus">
+            <ul>
+                <li><a href="#"><img src="../upload/banner1.png" alt=""></a></li>
+                <li><a href="#"><img src="../upload/banner2.png" alt=""></a></li>
+                <li><a href="#"><img src="../upload/banner3.png" alt=""></a></li>
+                <li><a href="#"><img src="../upload/banner4.png" alt=""></a></li>
+            </ul>
+            <a href="javascript:;" class="prev"> &lt; </a>
+            <a href="javascript:;" class="next"> &gt; </a>
+        </div>
+        <!-- 小圆点 dot -->
+        <div class="dot">
+            <ol class="promo-dot">
+
+            </ol>
+        </div>
     </div>
-</section>
+</div>
+
 </body>
 </html>
